@@ -6,7 +6,7 @@
 
 | 技能 | 用途 | 主要依赖 |
 | --- | --- | --- |
-| [feishu-daily-portraits](skills/feishu-daily-portraits/) | 读取飞书账号参考图，先出样图再补齐每日8张形象图，并按使用日期同步 | Codex 图片生成、imagegen、lark-cli、lark-base；授权恢复需 lark-shared |
+| [feishu-daily-portraits](skills/feishu-daily-portraits/) | 读取飞书账号参考图，每账号每天生成1张形象图，并按使用日期同步 | Codex 图片生成、imagegen、lark-cli、lark-base；授权恢复需 lark-shared |
 | [zgh-wechat-short-draft](skills/zgh-wechat-short-draft/) | 参考公众号素材创作原创情感短文或无字竖版贴图，完成封面、排版与飞书草稿入库 | Codex 图片生成、lark-cli、lark-base；文章模式另需 zgh-space-wechat-layout |
 
 ### 公众号短文与贴图

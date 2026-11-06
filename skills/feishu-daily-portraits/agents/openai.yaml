@@ -1,4 +1,4 @@
 interface:
   display_name: "飞书每日形象图"
-  short_description: "读取飞书账号参考图，先出样图再生成每日8张形象图并按日期同步"
-  default_prompt: "使用 $feishu-daily-portraits 为我指定的飞书账号生成明天的8张形象图，沿用已确认风格，完成后同步到对应日期。"
+  short_description: "读取飞书账号参考图，每账号每天生成1张形象图并按日期同步"
+  default_prompt: "使用 $feishu-daily-portraits 为我指定的飞书账号生成明天的1张形象图，沿用已确认风格，完成后同步到对应日期。"
